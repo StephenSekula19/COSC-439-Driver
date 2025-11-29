@@ -1,0 +1,1 @@
+ACTION=="change", SUBSYSTEM=="usb", ATTR{idVendor}=="0781", ATTR{idProduct}=="5575", RUN+="/usr/local/bin/usb_encrypt_helper.sh"
